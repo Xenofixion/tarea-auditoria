@@ -13,7 +13,13 @@ File: Layout CSS
 
 /* PERSONALIZED 
 ---------------------------------------------------------------------------------------------------------------*/
-
+html {
+  scroll-behavior: smooth;
+}
+.section-title-div {
+  text-align: center;
+  margin: 15px 0 30px 0;
+}
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row0 {
@@ -98,6 +104,7 @@ File: Layout CSS
   font-size: 26px;
 }
 #pageintro article div p:last-of-type {
+  font-size: 20px;
 }
 #pageintro article footer {
 }
@@ -105,7 +112,7 @@ File: Layout CSS
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
 .container {
-  padding: 80px 0;
+  padding: 70px 0;
 }
 
 /* Content */
@@ -685,8 +692,8 @@ textarea:focus,
 .btn,
 .btn.inverse:hover {
   color: #ffffff;
-  background-color: #a3d044;
-  border-color: #a3d044;
+  background-color: #44d0d0;
+  border-color: #44d0d0;
 }
 .btn:hover,
 .btn.inverse {
@@ -707,8 +714,6 @@ textarea:focus,
 .row1 {
   color: #ffffff;
   background-color: #252525;
-  position: fixed;
-  z-index: 2;
 }
 .row2 {
   color: #141414;
@@ -785,7 +790,7 @@ textarea:focus,
 #mainav .active a,
 #mainav a:hover,
 #mainav li:hover > a {
-  color: #a3d044;
+  color: #44d0d0;
   background-color: inherit;
 }
 #mainav li li a,
