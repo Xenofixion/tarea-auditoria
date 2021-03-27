@@ -45,7 +45,7 @@ body {
   display: none;
 }
 .nospace {
-  margin: 0;
+  margin: 10px 0;
   padding: 0;
   list-style: none;
 }
@@ -292,7 +292,7 @@ section {
 .three_quarter {
   display: inline-block;
   float: left;
-  margin: 0 0 0 3.06748466257669%;
+  margin: 1% 0 1% 0;
   list-style: none;
 }
 
@@ -305,7 +305,7 @@ section {
   width: 22.69938650306748%;
 }
 .one_third {
-  width: 31.28834355828221%;
+  flex-basis: 33.333333%;
 }
 .one_half,
 .two_quarter {
